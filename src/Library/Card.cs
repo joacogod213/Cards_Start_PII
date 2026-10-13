@@ -9,7 +9,7 @@ namespace Ucu.Poo.Cards
     /// <summary>
     /// Representa un naipe de póker.
     /// </summary>
-    public class Card
+    public class Card : ICardContent
     {
         /// <summary>
         /// Inicializa una nueva instancia de la clase <see cref="Card"/>.
